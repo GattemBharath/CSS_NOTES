@@ -1,0 +1,41 @@
+/* 
+--------- SELECTOR TYPES --------
+1. Element Selector
+2. ID Selector
+3. Class Selector
+ */
+
+/* 1. Element Selector  = For all the elements */
+p {
+  color: red;
+}
+
+/* 2. ID Selector =  Only for a particular element, we can use an id name for only one element at a time
+      i.e., no two elements can have same id name */
+#p3 {
+  color: green;
+}
+
+#p {
+  font-size: 30px;
+}
+
+/* 3. Class Selector = For a category of elements */
+/* For the elements which needed same style then we can use same class selector for all those elements,
+   i.e., we can use same class name for multiple elements */
+.underline-text {
+  text-decoration: underline;
+}
+
+/* PRIORITY ORDER = ID > CLASS > ELEMENT */
+.orange-text {
+  color: orange;
+}
+
+h1 {
+  color: yellowgreen;
+}
+
+#h {
+  color: blue;
+}
