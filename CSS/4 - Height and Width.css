@@ -1,0 +1,20 @@
+body {
+  border: 5px solid red;
+  height: 1000px;
+}
+
+#div1 {
+  background-color: greenyellow;
+  /* height: 50%; */
+
+  /* % of width & height will taken based on it's parent i.e., body */
+  width: 70%;
+
+  /* max-width indicates that the width shouldn't increase beyond 500px */
+  /* max-width: 500px;
+  max-height: 300px; */
+
+  /* min-width indicates that the width shouldn't decrease below 1000px */
+  min-width: 1000px;
+  min-height: 300px;
+}

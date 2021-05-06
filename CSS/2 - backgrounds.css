@@ -1,0 +1,20 @@
+#bg {
+  /* background-color: darkolivegreen; */
+  /* background-position: center center; */
+  /* background-image: url("../images/Rooftop\ view8623_rectangle.jpg");
+  background-repeat: no-repeat;
+  background-position: 5% 10%;
+  background-size: cover;
+  background-attachment: fixed; */
+  /* background: greenyellow url("../images/England_Fields.jpg") no-repeat fixed 5%
+    10%;  [CIRAP]  [COLOR, IMAGE, REPEAT, ATTACHMENT, POSITION]*/
+
+  background-color: yellow;
+  background-image: url("../images/pattern.jpg"), url("../images/images.jpg");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+
+/* body {
+  background-color: brown;
+} */
