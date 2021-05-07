@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+}
+
+/* :link
+   :visited
+   :hover
+   :active */
+
+/* link and visited should be at the top of hover 
+   and active shpuld be at the end always.*/
+
+a:link {
+  color: yellowgreen;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: red;
+}

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: allura;
+  src: url("../new fonts/Allura-Regular.ttf");
+}
+
+h1 {
+  /* font-family: "Noto Sans HK", sans-serif; */
+  font-family: allura;
+  font-weight: normal;
+}
+
+p {
+  font-family: allura, "Josefin Sans", sans-serif;
+
+  /* (STYLE VARIANT WEIGHT SIZE FAMILY) */
+  /* font: italic small-caps bold 30px allura; */
+
+  font-size: 30px;
+  /* font-weight: bold; */
+  font-style: italic;
+  /* font-variant: small-caps; */
+}

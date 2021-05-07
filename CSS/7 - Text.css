@@ -1,0 +1,48 @@
+#text {
+  width: 500px;
+  border: 1px solid black;
+
+  /* color: rgb(140, 93, 187);
+  text-align: justify; */
+  /* direction: rtl; */
+
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-indent: 50px;
+  word-spacing: 10px;
+}
+
+img {
+  border: 3px solid rgb(0, 81, 255);
+  vertical-align: middle;
+}
+
+#text1 {
+  width: 500px;
+  border: 3px solid rgba(26, 77, 5, 0.897);
+  text-decoration: underline;
+  text-transform: lowercase;
+  line-height: 50px;
+  letter-spacing: 3px;
+}
+
+#shadow {
+  font-size: 70px;
+  /* text-shadow: horizantal vertical blur color */
+  text-shadow: 5px 10px 5px rgb(92, 141, 17);
+}
+
+#text3 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  /* white-space helps in showing the text written in html file as it is in the browser screen . */
+  /* white-space: nowrap; */
+  word-wrap: break-word;
+}
+
+#text4 {
+  width: 500px;
+  border: 1px solid black;
+  writing-mode: vertical-rl;
+}

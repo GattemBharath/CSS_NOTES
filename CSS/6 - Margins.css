@@ -1,0 +1,38 @@
+.div1 {
+  border: 1px solid red;
+  padding: 25px 50px 30px 70px;
+}
+
+.div2 {
+  border: 2px solid green;
+  padding: 25px 50px 30px 70px;
+}
+/* body {
+  border: 5px dotted black;
+} */
+
+/* Margin can contain negative values but padding can't have -ve values. */
+
+/* Margins create extra space around an element. In contrast, padding creates extra space within an element. */
+#marg {
+  /* To get element to center  */
+  width: 200px;
+  margin: 20px auto;
+
+  /* margin-top: -40px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 10%; */
+
+  /* margin: 50px 30px 40px 70px; */
+}
+
+/* MARGIN COLLAPSE = Here 50px > 30px, so margin-top is considered but not sum of both margins */
+/* MARGIN COLLAPSE IS FOR ONLY TOP & BOTTOM BUT NOT FOR LEFT & RIGHT */
+#colsp {
+  margin-bottom: 30px;
+}
+
+#colsp2 {
+  margin-top: 50px;
+}
