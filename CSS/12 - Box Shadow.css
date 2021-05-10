@@ -1,0 +1,15 @@
+div {
+  border: 1px solid green;
+  width: 500px;
+  background-color: yellowgreen;
+  margin: 100px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 3px indianred, -10px 10px 10px 3px goldenrod;
+  border-radius: 20px;
+}
+
+/* 
+The box-shadow CSS property adds shadow effects around an element's frame.
+   You can set multiple effects separated by commas. 
+   A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.
+*/

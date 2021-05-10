@@ -1,0 +1,74 @@
+html {
+  /* DEFAULT SIZE OF HTML ELEMENT IS 16PX */
+  font-size: 14px;
+}
+
+#parent {
+  /* border: 1px solid red; */
+  /* width: 500pc; */
+  /* height: 50vh;
+  width: 50vw; */
+
+  /* font-size: 50px;  for em*/
+  font-size: 4rem;
+}
+
+#child {
+  /* border: 1px solid blue;
+  width: 50%; */
+  /* font-size: 0.5em; 0.5*30 = 15px  */
+  /* 2em means double the size of parent  size*/
+  font-size: 2rem;
+}
+
+#bharath {
+  font-size: 1rem;
+}
+
+section {
+  background: linear-gradient(to bottom, magenta, cyan);
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 50px;
+}
+
+#one {
+  width: 100vw;
+  background-color: red;
+}
+
+#two {
+  width: 80vw;
+  background-color: green;
+}
+
+#three {
+  width: 50vw;
+  background-color: orange;
+}
+
+#four {
+  width: 30vw;
+  background-color: coral;
+}
+
+#nested1 {
+  background-color: blueviolet;
+  height: 50%;
+  width: 20%;
+  display: inline-block;
+}
+
+#nested2 {
+  background-color: darkmagenta;
+  height: 50%;
+  display: inline-block;
+  width: 80%;
+}
