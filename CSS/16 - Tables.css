@@ -1,0 +1,37 @@
+table {
+  border: 1px solid green;
+  border-collapse: collapse;
+
+  /* border-collapse: separate;
+  /* The border-spacing CSS property sets the distance between the borders of adjacent <table> cells.
+   This property applies only when border-collapse is separate. */
+  /* border-spacing: 15px 25px; (top, right, bottom, or left) */
+  empty-cells: hide;
+  width: 100%;
+  table-layout: fixed;
+}
+
+caption {
+  border: 1px solid green;
+  caption-side: bottom;
+}
+
+/* tr doesn't take the border */
+tr {
+  border: 1px solid green;
+}
+
+th {
+  border: 1px solid green;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid green;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
