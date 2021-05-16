@@ -1,0 +1,18 @@
+#div1 {
+  background-color: blueviolet;
+  width: 600px;
+  height: 150px;
+}
+
+#div2 {
+  background-color: chocolate;
+  width: 600px;
+  height: 150px;
+  padding: 50px;
+  border: 10px solid green;
+  box-sizing: border-box;
+}
+
+/* The CSS box-sizing property allows us to include the padding and 
+   border in an element's total width and height
+*/
