@@ -1,0 +1,33 @@
+/* 
+   block  (div, p, h1 to h6, form)
+   1. Starts with new line
+   2. Takes full width
+   3. height and width can be applied.
+
+
+   inline (a, img, span)
+   1. Does not start with new line
+   2. Takes width based on nessicity
+   3. height and width can't be applied.
+
+
+   inline-block
+   1. Does not start with new line
+   2. Takes width based on nessicity
+   3. height and width can be applied. 
+
+   none
+*/
+
+.display {
+  border: 1px solid green;
+  width: 50%;
+  height: 100px;
+  display: inline-block;
+}
+
+#div1 {
+  /* display: none; */
+  visibility: hidden;
+  height: 500px;
+}
