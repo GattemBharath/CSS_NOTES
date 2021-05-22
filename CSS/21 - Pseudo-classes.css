@@ -1,0 +1,32 @@
+/* selector:pseudo-class */
+
+/* a:link {
+}
+
+a:hover {
+} */
+
+li:first-child {
+  color: chocolate;
+}
+li:last-child {
+  color: rgb(34, 85, 34);
+}
+li:nth-child(4) {
+  color: brown;
+}
+li:nth-child(odd) {
+  font-weight: bold;
+}
+li:nth-child(even) {
+  text-decoration: underline;
+}
+li:nth-child(3n + 1) {
+  text-shadow: 1px 1px 2px cornflowerblue;
+}
+li:nth-last-child(2) {
+  text-indent: 20px;
+}
+input:focus {
+  border: 3px solid green;
+}
