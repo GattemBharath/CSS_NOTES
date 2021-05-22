@@ -1,0 +1,77 @@
+/* 
+  1. static (default)
+  2. relative
+  3. fixed
+  4. absolute
+*/
+
+/* FOR relative,fixed, absolute POSITIONS
+ 1. top
+ 2. bottom
+ 3. left
+ 4. right
+*/
+
+body {
+  height: 1000px;
+}
+
+#parent {
+  border: 1px solid green;
+  padding: 20px;
+  width: 50%;
+  margin: 100px;
+  position: relative;
+}
+
+#one {
+  width: 100px;
+  height: 100px;
+  background-color: magenta;
+  display: inline-block;
+}
+
+#two {
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  display: inline-block;
+  /* position: relative;
+  top: 50px;
+  left: 50px; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#three {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  display: inline-block;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* absolute takes position based its nearest positioned parent.
+   If no position is specified for its parent i.e., position:static
+   then it searches for its grand parent and so on.... upto  i.e., body tag
+   and takes position based on body tag's position.
+   The element can go away from its position.
+   We must specify (top,left,right,bottom) for absolute or
+   it might take the position of other elements.
+*/
+
+/*  
+   relative takes position based on its original position.
+   It doesn't go away from its position.
+   It doesn't allow other elements to occupy its position.
+*/
+
+/* 
+   fixed is positioned based on viewport.
+   The element can go away from its position.
+   We must specify (top,left,right,bottom) for fixed or
+   it might take the position of other elements.
+*/
