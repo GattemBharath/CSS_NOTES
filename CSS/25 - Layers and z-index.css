@@ -1,0 +1,45 @@
+#parent {
+  padding: 20px;
+  width: 50%;
+  margin: 100px;
+  position: relative;
+}
+
+#one {
+  width: 100px;
+  height: 100px;
+  background-color: magenta;
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+}
+
+#two {
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: -50px;
+  z-index: 4;
+}
+
+#three {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  left: -100px;
+  z-index: 1;
+}
+
+/* 
+  Whenever we need to decide the priority of layers.i.e., which layer to come top etc.
+  Then we use z-index property. 
+  z-index works only when position is set to absolute , relative or fixed.
+  The element which has highest z-index value, it will come to the top.
+  z-index applies only when we add position property to the element.
+*/
