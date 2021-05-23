@@ -1,0 +1,65 @@
+img {
+  width: 200px;
+  height: auto;
+  padding: 10px;
+}
+
+#img1 {
+  float: right;
+}
+
+#img2 {
+  float: left;
+}
+
+ul {
+  background-color: mediumseagreen;
+  list-style-type: none;
+  /* border: 1px solid brown; */
+  overflow: auto;
+}
+
+li {
+  color: white;
+  padding: 10px 15px;
+  float: left;
+}
+
+#sec-example {
+  border: 1px solid green;
+  overflow: auto;
+}
+#img3 {
+  float: right;
+  width: 100px;
+  height: auto;
+}
+#img4 {
+  float: right;
+  clear: right;
+  width: 100px;
+  height: auto;
+}
+/* 
+   Whenever we use float property, use overflow: auto in container element to get the element into the container.
+   Because when we add float, the elements may come out of container, so use overflow: auto.
+*/
+
+#content {
+  width: 70%;
+  background-color: cyan;
+  height: 200px;
+  float: left;
+}
+
+#sidebar {
+  width: 30%;
+  background-color: deeppink;
+  height: 150px;
+  float: left;
+}
+
+#footer {
+  background-color: coral;
+  clear: both;
+}
