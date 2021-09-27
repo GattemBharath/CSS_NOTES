@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>
+      Ok, so when using “position: absolute,” the block moves relative to the
+      browser window. And when the block moves, it doesn’t leave the space
+      behind. That’s why the block moves up to take the green block’s old
+      location. And when using “position: relative,” the block moves relative to
+      its original position. And when it moves, it leaves the space behind so
+      the blue block cannot take the green block’s old location.
+    </p>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <p class="abs">Absolute Positioning</p>
+    <br /><br />
+
+    <div class="d"></div>
+    <div class="e"></div>
+    <div class="f"></div>
+    <p class="rel">Relative Positioning</p>
+    <h3>Interaction between position relative and absolute</h3>
+    <div class="p">
+      <div class="q"></div>
+    </div>
+    <br /><br /><br />
+    <p>
+      Interaction between blocks with “position: relative” and “position:
+      absolute.” So, let’s say in HTML we have a block with class P and a block
+      with class Q, which is inside of the block P. Block P is orange, block Q
+      is green. And let’s set “position: relative” for block P, and let’s add
+      “left: 70px” and “top: 40px.” So, what’s going to happen? Right – because
+      we set position: relative, our block including all its content (that is
+      including block Q) it’s going to be moved from its original position by
+      70px to the right and by 40px to the bottom. So this comes as no surprise.
+      Now let’s specify the following for block Q: position: absolute, left:
+      70px and top: 40px. So what’s going to happen now? Well, in this case our
+      block Q is going to be moved by 70 to the right and by 40 to the bottom,
+      but now it’s going to be moved from the edge of block Q (while in the
+      previous case it was moved from the edge of the browser window). Now, why
+      is that so? Well, because we specified “position: relative” for block P,
+      and block P is an ancestor for block Q. This is a distinctive feature of
+      how blocks with “position: relative” and “position: absolute” interact
+      with each other (it is if absolute is inside of relative). So, remember:
+      if we set “position: absolute” for a block and move it using “left” and
+      “top,” this block will look for the closest parent block with “position:
+      relative.” If there is such a block, it will use this block as the edge
+      from which to move. And if it fails to find a parent block that has
+      “position: relative,” it will move from the edge of the browser window.
+      But “position: fixed” always moves from the edge of the browser window.
+    </p>
+  </body>
+</html>

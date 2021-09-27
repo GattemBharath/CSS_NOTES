@@ -1,0 +1,60 @@
+div {
+  height: 100px;
+  width: 100px;
+}
+
+.abs {
+  text-align: center;
+  background-color: coral;
+  border-radius: 20px;
+  padding: 5px;
+  /* margin: 30px 480px 0px 480px; */
+}
+.rel {
+  text-align: center;
+  background-color: coral;
+  border-radius: 20px;
+  padding: 5px;
+  /* margin: 30px 480px 0px 480px; */
+}
+.a {
+  background-color: orange;
+}
+.b {
+  background-color: green;
+  position: absolute;
+  top: 80px;
+  left: 40px;
+}
+.c {
+  background-color: blue;
+}
+
+.d {
+  background-color: orange;
+}
+.e {
+  background-color: green;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+.f {
+  background-color: blue;
+}
+.p {
+  height: 400px;
+  width: 400px;
+  background-color: orange;
+  position: relative;
+  left: 70px;
+  top: 40px;
+}
+.q {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  left: 70px;
+  top: 40px;
+}
